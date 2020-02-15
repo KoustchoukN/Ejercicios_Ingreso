@@ -2,10 +2,10 @@ function mostrar()
 {
 	//Genero el número RANDOM entre 1 y 10 
 	var numero;
-	Math.floor(numero);
-	numero=Math.floor(Math.random(numero)*(11-1))+1;
 	
-	if(numero>=9&&numero<=10)
+	numero=Math.floor(Math.random()*(10))+1;
+	
+	if(numero>=9)
 	{
 		alert(numero + " Excelente!");
 	}
